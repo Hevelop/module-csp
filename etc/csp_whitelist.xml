@@ -11,13 +11,13 @@
             <values>
                 <value id="googleapis_com" type="host">*.googleapis.com</value>
                 <value id="gstatic_com" type="host">*.gstatic.com</value>
-                <!-- ##csp-for-cdn## -->
+                <!-- ##font-src## -->
             </values>
         </policy>
         <policy id="style-src">
             <values>
                 <value id="googleapis_com" type="host">*.googleapis.com</value>
-                <!-- ##csp-for-cdn## -->
+                <!-- ##style-src## -->
             </values>
         </policy>
         <policy id="script-src">
@@ -29,7 +29,7 @@
                 <value id="google_analytics" type="host">*.google-analytics.com</value>
                 <value id="google_analytics_doubleclick" type="host">*.doubleclick.net</value>
                 <value id="maps_googleapis_com" type="host">maps.googleapis.com</value>
-                <!-- ##csp-for-cdn## -->
+                <!-- ##script-src## -->
             </values>
         </policy>
         <policy id="connect-src">
@@ -40,7 +40,7 @@
                 <value id="google_analytics" type="host">*.google-analytics.com</value>
                 <value id="google_analytics_doubleclick" type="host">*.doubleclick.net</value>
                 <value id="all_facebook_com" type="host">*.facebook.com</value>
-                <!-- ##csp-for-cdn## -->
+                <!-- ##connect-src## -->
             </values>
         </policy>
         <policy id="frame-src">
@@ -53,7 +53,7 @@
                 <value id="all_youtube_com" type="host">*.youtube.com</value>
                 <value id="all_vimeo_com" type="host">*.vimeo.com</value>
                 <value id="all_stripe_com" type="host">*.stripe.com</value>
-                <!-- ##csp-for-cdn## -->
+                <!-- ##frame-src## -->
             </values>
         </policy>
         <policy id="img-src">
@@ -64,7 +64,7 @@
                 <value id="all_facebook_com" type="host">*.facebook.com</value>
                 <value id="all_ytimg_com" type="host">*.ytimg.com</value>
                 <value id="maps_gstatic_com" type="host">maps.gstatic.com</value>
-                <!-- ##csp-for-cdn## -->
+                <!-- ##img-src## -->
             </values>
         </policy>
         <policy id="form-action">
