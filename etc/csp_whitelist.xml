@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2021 Hevelop srl (https://hevelop.com). All rights reserved.
+  ~ License: https://opensource.org/licenses/agpl-3.0  AGPL-3.0 License
+  ~ Author: Alex bordin <alex@hevelop.com>
+  ~ Package: Hevelop_Csp
+  -->
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="font-src">
+            <values>
+                <value id="googleapis_com" type="host">*.googleapis.com</value>
+                <value id="gstatic_com" type="host">*.gstatic.com</value>
+                <!-- ##csp-for-cdn## -->
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <value id="googleapis_com" type="host">*.googleapis.com</value>
+                <!-- ##csp-for-cdn## -->
+            </values>
+        </policy>
+        <policy id="script-src">
+            <values>
+                <value id="all_google_com" type="host">*.google.com</value>
+                <value id="all_gstatic_com" type="host">*.gstatic.com</value>
+                <value id="all_adyen_com" type="host">*.adyen.com</value>
+                <value id="all_facebook_net" type="host">*.facebook.net</value>
+                <value id="google_analytics" type="host">*.google-analytics.com</value>
+                <value id="google_analytics_doubleclick" type="host">*.doubleclick.net</value>
+                <value id="maps_googleapis_com" type="host">maps.googleapis.com</value>
+                <!-- ##csp-for-cdn## -->
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="braintree_api_com" type="host">*.braintree-api.com</value>
+                <value id="braintreegateway_com" type="host">*.braintreegateway.com</value>
+                <value id="www_paypal_com" type="host">www.paypal.com</value>
+                <value id="google_analytics" type="host">*.google-analytics.com</value>
+                <value id="google_analytics_doubleclick" type="host">*.doubleclick.net</value>
+                <value id="all_facebook_com" type="host">*.facebook.com</value>
+                <!-- ##csp-for-cdn## -->
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="all_google_com" type="host">*.google.com</value>
+                <value id="all_google_it" type="host">*.google.it</value>
+                <value id="www_paypal_com" type="host">assets.braintreegateway.com</value>
+                <value id="all_adyen_com" type="host">*.adyen.com</value>
+                <value id="all_facebook_com" type="host">*.facebook.com</value>
+                <value id="all_youtube_com" type="host">*.youtube.com</value>
+                <value id="all_vimeo_com" type="host">*.vimeo.com</value>
+                <value id="all_stripe_com" type="host">*.stripe.com</value>
+                <!-- ##csp-for-cdn## -->
+            </values>
+        </policy>
+        <policy id="img-src">
+            <values>
+                <value id="all_google_com" type="host">*.google.com</value>
+                <value id="all_google_it" type="host">*.google.it</value>
+                <value id="all_adyen_com" type="host">*.adyen.com</value>
+                <value id="all_facebook_com" type="host">*.facebook.com</value>
+                <value id="all_ytimg_com" type="host">*.ytimg.com</value>
+                <value id="maps_gstatic_com" type="host">maps.gstatic.com</value>
+                <!-- ##csp-for-cdn## -->
+            </values>
+        </policy>
+        <policy id="form-action">
+            <values>
+                <value id="all_adyen_com" type="host">*.adyen.com</value>
+                <value id="all_facebook_com" type="host">*.facebook.com</value>
+                <!-- ##form-action## -->
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

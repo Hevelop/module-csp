@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2021 Hevelop srl (https://hevelop.com). All rights reserved.
+  ~ License: https://opensource.org/licenses/agpl-3.0  AGPL-3.0 License
+  ~ Author: Alex bordin <alex@hevelop.com>
+  ~ Package: Hevelop_Csp
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Hevelop_Csp">
+        <sequence>
+            <module name="Magento_Csp" />
+        </sequence>
+    </module>
+</config>
